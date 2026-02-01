@@ -1,0 +1,27 @@
+name: cars4you
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+
+  - numpy==1.24.*
+  - pandas
+  - scipy
+
+  - scikit-learn==1.7.2
+  - optuna==3.6.1
+  - joblib
+
+  - matplotlib
+  - seaborn
+
+  - jupyter
+  - notebook
+  - ipykernel
+
+  - pip
+  - pip:
+      - tensorflow==2.15.0
+      - upsetplot==0.8.0
