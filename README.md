@@ -2,6 +2,8 @@
 
 Project for Machine Learning course, Masters in Data Science and Advanced Analytics
 
+This repository reflects a cleaned version of the project, with improved organization and documentation for clarity and reproducibility.
+
 ---
 
 ## Project Authors
