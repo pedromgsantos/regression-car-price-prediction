@@ -51,6 +51,7 @@ The main notebook is **main.ipynb**, which contains the complete pipeline summar
 - **03_preprocessing.ipynb** – handles the creation of folds and data processing
 - **04_feature_selection.ipynb** – performs feature engineering and selection
 - **05_model_creation.ipynb** – handles model training, hyperparameter tuning, and evaluation
+- **06_nn_training.ipynb** – handles NN training and tuning using optuna
 
 ---
 
