@@ -44,14 +44,13 @@ A reliable, automated system to estimate car prices, improving efficiency and cu
 
 ## Notebooks
 
-Our main notebook is **main.ipynb**, which contains the complete pipeline summary and provides links to auxiliary notebooks:
+The main notebook is **main.ipynb**, which contains the complete pipeline summary and provides links to auxiliary notebooks:
 
-- **Nominal_Variables_Fixing.ipynb** – handles categorical variable fixing
-- **Preprocessing.ipynb** – handles the creation of folds and data processing
-- **Visualizations.ipynb** – contains exploratory data visualizations and statistical plots
-- **Feature_Selection.ipynb** – performs feature engineering and selection
-- **Model_Creation.ipynb** – handles model training, hyperparameter tuning, and evaluation
-- **NN_training.ipynb** – handles NN training and tuning using optuna
+- **01_categorical_variables_fixing.ipynb** – handles categorical variable fixing
+- **02_visualizations.ipynb** – contains exploratory data visualizations and statistical plots
+- **03_preprocessing.ipynb** – handles the creation of folds and data processing
+- **04_feature_selection.ipynb** – performs feature engineering and selection
+- **05_model_creation.ipynb** – handles model training, hyperparameter tuning, and evaluation
 
 ---
 
@@ -100,7 +99,7 @@ The model used in this UI is **NOT the best model** we could train, but rather a
 - Preprocessing required to transform user input into model-ready format
 - Loading a pre-trained model and returning a predicted price (£)
 
-**Not included** (these can be found in the main repository):
+**Not included** (these can be found in the main scope - notebooks main and auxiliary):
 - Model training, benchmarking, and optimisation notebooks 
 - The full project report and analysis deliverables 
 
@@ -169,7 +168,7 @@ The application will open in your default browser at `http://localhost:8501`
 
 ## Online Demo
 
-The application is available online here:
+The application is also available online here:
 - **Live Demo:** https://uicars4you-mlproject.streamlit.app/
 
 ---
